@@ -15,12 +15,13 @@
                 default_layer {
                         label = "Base";
                         bindings = <
-   &kp TAB   &lt 3 SQT &kp COMMA &kp DOT &kp P &kp Y   &kp F &kp G  &kp C &kp R   &kp L    &kp BSPC
-   &kp LCTRL &kp A   &kp O     &kp E   &kp U &kp I   &kp D &kp H  &kp T &kp N   &kp S    &kp SQT
-   &kp LSHFT &kp SEMI &kp Q    &kp J   &kp K &kp X   &kp B &kp M  &kp W &kp V   &kp Z    &kp ESC
-                      &trans  &kp LSHFT       &mo 1   &mo 2 &kp SPACE &trans
+   &kp TAB    &lt 3 SQT &kp COMMA  &kp DOT  &kp P  &kp Y    &kp F  &kp G  &kp C  &kp R  &kp L  &kp BSPC
+   &kp LCTRL  &kp A     &kp O      &kp E    &kp U  &kp I    &kp D  &kp H  &kp T  &kp N  &kp S  &kp SQT
+   &kp LSHFT  &kp SEMI  &kp Q      &kp J    &kp K  &kp X    &kp B  &kp M  &kp W  &kp V  &kp Z  &kp ESC
+                                &trans  &kp LSHFT  &mo 1    &mo 2  &kp SPACE &trans
                         >;
                 };
+
                 num_layer {
                         label = "Num";
                         bindings = <
@@ -34,10 +35,10 @@
                 sym_layer {
                         label = "Sym";
                         bindings = <
-   &kp  TAB  &kp BSLH &kp LT   &kp GT    &kp DQT   &kp GRAVE   &kp AMPS   &kp MULTIPLY &kp LPAR &kp RPAR &kp FSLH  &kp BSPC
-   &kp LCTRL &kp EXCL &kp PLUS &kp MINUS &kp EQUAL &kp PIPE    &kp MINUS  &kp COLON    &kp LBRC &kp RBRC &kp QMARK &kp GRAVE
-   &kp LSHFT &kp AT   &kp HASH &kp PRCNT &kp CARET &kp TILDE   &kp DOLLAR &kp UNDER    &kp LBKT &kp RBKT &kp BSLH  &kp TILDE
-                    	       &trans    &trans    &trans      &trans     &trans       &trans
+   &kp  TAB   &kp BSLH  &kp LT     &kp GT     &kp DQT    &kp GRAVE    &kp AMPS    &kp MULTIPLY  &kp LPAR  &kp RPAR  &kp FSLH   &kp BSPC
+   &kp LCTRL  &kp EXCL  &kp PLUS   &kp MINUS  &kp EQUAL  &kp PIPE     &kp MINUS   &kp COLON     &kp LBRC  &kp RBRC  &kp QMARK  &kp GRAVE
+   &kp LSHFT  &kp AT    &kp POUND  &kp PRCNT  &kp CARET  &kp TILDE    &kp DOLLAR  &kp UNDER     &kp LBKT  &kp RBKT  &kp BSLH   &kp TILDE
+                                    &trans    &trans    &trans       &trans     &trans       &trans
                         >;
                 };
 
